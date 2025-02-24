@@ -1,0 +1,5 @@
+# modules/tflite-micro-lib/module.yml
+name: tflite-micro-lib
+build:
+  cmake: .
+  kconfig: Kconfig

@@ -1,0 +1,11 @@
+# tflite-micro-lib/Kconfig
+
+menu "TFLM Library"
+
+config TFLITE_MICRO_LIB
+    bool "Enable TFLM libraries"
+    default n
+    help
+      Enable linking of TFLM and muriscv_nn libraries.
+
+endmenu
